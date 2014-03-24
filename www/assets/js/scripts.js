@@ -1,5 +1,6 @@
 ﻿var v65 = {
 	global : {
+<<<<<<< HEAD
 		init : function(){
 			v65.global.addButtonListener();
 			v65.global.addToCartListener();
@@ -106,6 +107,31 @@
 				$("html, body").animate({ scrollTop: 0 }, 400);
 				return false;
 			});
+=======
+		mainMenuHover : function(){
+			$("#topMenu ul li:last-child").css("margin-right", "0");
+			$("#topMenu ul li ul li").hover(function(){
+				$(this).parent().parent().children("a").toggleClass("hover");
+			});
+		}
+	},
+	page : {
+		initPhotoGallery : function(){
+			if($("#pagePhotoGallery").length){
+				$("#pagePhotoGallery").v65PhotoGallery({
+					/*
+						Uncomment the code below if you want to change how the photo gallery is displayed.
+
+						galleryHeight : 420, // This value is translated to 420px and will change the photogallery height
+						galleryWidth : 630, // This value is translated to 630px and will change the photogallery width
+						pauseTime : 5000, // Adjust how long the image is displayed for. Value is in milliseconds
+						animSpeed : 1000, // Adjust the transition speed between images. Value is in milliseconds
+						controlNav : false, // hide the 1,2,3 navigation
+						directionNav : false // hide the arrow navigation
+					*/
+				});
+			}
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd
 		}
 	}
 }
@@ -154,6 +180,7 @@
 			},
 			complete: function(){
 	   			gallery.nivoSlider({
+<<<<<<< HEAD
 					effect:settings.effect,
 					slices:settings.slices,
 					animSpeed:settings.animSpeed,
@@ -162,11 +189,26 @@
 					directionNav:settings.directionNav,
 					directionNavHide:settings.directionNavHide,
 					controlNav:settings.controlNav
+=======
+					effect:settings.effect, // Specify sets like: 'fold,fade,sliceDown'
+					slices:settings.slices, // For slice animations
+					animSpeed:settings.animSpeed, // Slide transition speed
+					pauseTime:settings.pauseTime, // How long each slide will show
+					startSlide:settings.startSlide, // Set starting Slide (0 index)
+					directionNav:settings.directionNav, // Next & Prev navigation
+					directionNavHide:settings.directionNavHide, // Only show on hover
+					controlNav:settings.controlNav // 1,2,3... navigation
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd
 				});
 	   		}
 	   	});
 	}
 })(jQuery);
 
+<<<<<<< HEAD
 v65.global.init();
 v65.page.init();
+=======
+v65.global.mainMenuHover();
+v65.page.initPhotoGallery();
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd

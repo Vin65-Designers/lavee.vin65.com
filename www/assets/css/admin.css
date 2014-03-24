@@ -1,5 +1,9 @@
 /*Defaults*/
+<<<<<<< HEAD
 body { background-color: #fff; font-size: 12px; color: #666666; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; line-height: 1.5em; }
+=======
+body { background-color: #fff; font-size: 12px; color: #7d785c; font-family: Georgia, "Times New Roman", Times, serif; line-height: 1.5em; }
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd
 
 /* CSS Reset */
 img { border: 0; } 
@@ -7,6 +11,7 @@ h1,h2,h3,h4,h5,h6,p,table,ul,ol { margin-top: 0; padding-top: 0; }
 
 ul, ol, dl, p, table, pre { margin-bottom: 1em; }
 	
+<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #333; font-family: "Times New Roman", Times, serif; margin: 0; }
 	h1 { font-size: 32px; line-height: 1.2; margin-bottom: 0.6em; }
 	h2 { font-size: 26px; line-height: 1.2; margin-bottom: 0.5em; margin-top: 0.25em; }
@@ -16,6 +21,17 @@ h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #333; font-family: "Times New Ro
 	h6 { font-size: 14px; line-height: 1.5; }
 
 a { text-decoration: none; color: #900; }
+=======
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #c1880b; }
+	h1 { font-size: 2em; line-height: 1em; margin-bottom: 0.6em; } /* 30pt  */
+	h2 { font-size: 1.5em; line-height: 1em; margin-bottom: 0.5em; margin-top: 0.25em; }/* 24pt */
+	h3 { font-size: 1.2em; line-height: 1em; margin-bottom: 1em; }/* 18pt */
+	h4 { font-size: 1em; line-height: 1em; } /* 14pt */
+	h5 { font-size: 1em; line-height: 1em; font-weight: bold; }
+	h6 { font-size: 1em; line-height: 1em; color: #693; }
+
+a { color: #c1880b; text-decoration: none; }
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd
 a:hover, a:focus, a:active { text-decoration: underline; }
 
 ul, ol, dd, blockquote {  }

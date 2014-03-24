@@ -1,4 +1,8 @@
 User-agent: *
+<<<<<<< HEAD
 Disallow:
 Sitemap: http://www. designerlaunch.vin65.com/index.cfm?method=pages.searchEngineSiteMap
+=======
+Disallow: /
+>>>>>>> b0f14dcdb8856c8ac5ce3a574e9cd7430b1628bd
 
