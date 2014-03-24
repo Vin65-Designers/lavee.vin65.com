@@ -1,0 +1,90 @@
+footer{
+	color: $footerFontColor;
+	background: $navBackground;
+	padding: 1.5em 0;
+	text-align: left;
+	width: 100%;
+	float:left;
+
+	@media screen and (max-width:767px) {
+		padding:0 0 1.5em 0;
+	}
+
+	.footerContainer {
+		max-width: 990px;
+		margin: 0 auto;
+		padding:0 10px;
+	}
+
+	.leftFooter {
+		@media screen and (min-width:768px){
+			float:left;
+		}
+	}
+
+	.rightFooter {
+		@media screen and (min-width:768px){
+			float:right;
+			margin:0 1em;
+		}
+		@media screen and (max-width:767px){
+			text-align: center;
+		}
+	}
+
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		@media screen and (min-width: 768px){
+			margin-bottom: 0.5em;
+		}
+	}
+
+	li{
+		@media screen and (max-width: 767px){
+			border-top: 1px solid $borderColor;
+			line-height: 44px;
+			text-align: center;
+		}
+
+		@media screen and (min-width: 768px){
+			display: inline;
+			padding:0 5px;
+		}
+
+		a{
+			color: $footerFontColor;
+			display: inline-block;
+			font-size: 13px;
+			position: relative;
+
+			@media screen and (max-width: 767px){
+				width: 100%;
+			}
+
+			&:hover{
+				color: $footerFontColorHover;
+			}
+		}
+	}
+
+	.phone, .email, .map{
+		a:hover{
+			text-decoration: none;
+		}
+	}
+
+	.legal{
+		font-size: 0.917em;
+
+		li{
+			display: block;
+		}
+	}
+
+	a{
+		color:$footerFontColor;
+	}
+}

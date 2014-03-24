@@ -1,0 +1,86 @@
+// Colors
+$grey: #575757;
+$grey-light: #ccc;
+$grey-dark: #333;
+$black: #000;
+$white: #fff;
+$offWhite: #f1f1f1;
+$blue: #6dbcdb;
+$blue-light: #3b73ac;
+$blue-dark: #2e5b87;
+$offBlack: #111;
+$flatgrey: #999999;
+$flatblack: #555555;
+$red:#c7402a;
+
+// Font Colors
+$fontColor: $offBlack; // Main Body Content font color
+$linkColor: $red; // Main Body content link color
+
+// Backgroung Color
+$backgroundColor: $white; // Main Background Color
+$homepageContentColor: $white; // Homepage content background color
+$contentBackgroundColor: $white; //Content background color
+$contentBoxShadow: $flatgrey;
+
+// Heading Colors
+$headingFontColor: $grey-dark; // Default Heading Font Color
+$headerFontColor: $grey-dark; // Font Color outside the container
+$headerFontColorHover: $black; // Hover font color outside the container
+
+// User Tools Colors
+$topBarColor: $black; // User Tools background color
+$userToolsLinkColor: $flatgrey; // Link Color for user tools
+$userToolsLinkHover: $flatblack; //Link Hover and Social Icons Hover
+
+// Navigation Colors
+$navLinkColor: $white; //Font Color for main navigation
+$navLinkHover: $white; //Font Hover for main navigation
+$navBackground: $blue; //Navigation Background Banner Color
+$navBackgroundHover: $offWhite; //Navigation Background Hover
+
+$navSelected: $black;
+$leftNavSelected: $black;
+
+$subNavLinkColor: $grey; //Font Color for sub navigation
+$subNavLinkHover: $black; //Font Color for sub navigation hover
+$subNavBackgroundColor: $white; //Background Color for sub navigation
+
+// Footer Colors
+$footerColor: $grey; //Footer Color
+$footerLink: $grey-light; // Footer Link
+$footerLinkHover: $white; // Footer Link Hover
+
+$footerFontColor: $white; //Font Color outside the container
+$footerFontColorHover: $white; // Hover font color outside the container
+
+// Border Colors
+$borderColor: $grey-light; // Main Border Color
+
+// Button Colors
+
+$mainButtonColor: $red;
+$mainButtonHover: lighten($red, 5%);
+
+$mainButtonText: $white; // Main Button Font Color
+$boxShadowColor: $red; // Box Shadow Color
+$boxShadowHover: $red; // Box Shadow Hover Color
+
+
+$altButtonColor: $grey-dark;
+$altButtonHover: lighten($grey-dark, 5%);
+
+$altButtonText: $black; // Alt Button Font Color
+$altBoxShadowColor: $grey-light; // Box Shadow Color
+
+// Form Colors
+$quanityForm: $grey-light; // Add to cart quanity input form field background color.
+$quanityFormFont: $black; // Add to cart quanity input form field font color.
+
+// Back to Top Colors
+$backToTop: $grey-dark; // Back to top button color
+$backToTopFont: $white; // Back to top button font color
+
+// Logo Settings
+$logo: 'logo.png';
+$logo-retina: 'logo@2x.png';
